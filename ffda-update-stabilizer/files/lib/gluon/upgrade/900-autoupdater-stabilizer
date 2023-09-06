@@ -20,10 +20,8 @@ local update_branch = false
 -- release, so if you wanted to use them you had to
 -- use an experimental image.
 local new_models = Set {
-  'extreme-networks-ws-ap3825i',
-  'tp-link-eap225-outdoor-v1',
-  'tp-link-re650-v1',
-  'xiaomi-mi-router-4a-gigabit-edition'
+  'd-link-dap-x1860-a1',
+  'zyxel-nwa55axe'
 }
 
 if new_models[platform_info.get_image_name()] then
